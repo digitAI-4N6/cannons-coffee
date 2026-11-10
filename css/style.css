@@ -96,6 +96,7 @@ ul {
   gap: 1rem;
   justify-content: center;
   padding: 0;
+  margin: 0;
 }
 
 li {
@@ -136,5 +137,9 @@ a {
     justify-content: space-between;
     padding-left: 1rem;
     padding-right: 1rem;
+  }
+  nav {
+    display: flex;
+    align-items: flex-end;
   }
 }
