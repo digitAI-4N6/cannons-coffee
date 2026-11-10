@@ -95,6 +95,7 @@ ul {
   flex-flow: row wrap;
   gap: 1rem;
   justify-content: center;
+  padding: 0;
 }
 
 li {
@@ -122,6 +123,7 @@ a {
     justify-content: center;
     align-items: center;
     gap: 3rem;
+    align-items: flex-end;
   }
   /* .hero {
     display: flex;
