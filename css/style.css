@@ -90,12 +90,6 @@ header {
   margin: 0;
 }
 
-.branding {
-  /* display: flex;
-  flex-flow: row wrap;
-  justify-content: center; */
-}
-
 ul {
   display: flex;
   flex-flow: row wrap;
