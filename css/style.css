@@ -1,3 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+:root {
+  /* Colors */
+  --Black: #000000;
+  --Catalina: #06327d;
+  --Bluetiful: #2b70e4;
+  --Vegan: #209d5c;
+  --Sunglow: #ffd034;
+  --White: #ffffff;
+  --Light-Blue: #cadbf8;
+
+  /*             */
+  /* Font sizes and Line Height */
+  /*           */
+
+  --heading-line-height: 1.1667;
+  --heading-font-weight: 300;
+
+  /* h1 */
+  --h1-font-size: 3rem;
+  --h1-text-transform: uppercase;
+  --h1-margin: no margin;
+
+  /* h2 */
+  --h2-font-size: 2.5rem;
+  --h2-text-transform: uppercase;
+
+  /* h3 */
+  --h3-font-size: 1.75rem;
+
+  /* body */
+  --body-font-size: 1.25rem;
+  --body-line-height: 1.5;
+
+  /* Breakpoints */
+  --tablet: 650px;
+  --desktop: 1000px;
+}
+
 html {
   box-sizing: border-box;
 }
@@ -11,4 +51,46 @@ html {
 body {
   color: black;
   background-color: #063270;
+  font-family: "Montserrat", sans-serif;
+  font-size: var(--body-font-size);
+  line-height: var(--body-line-height);
+  margin: 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+:is(h1, h2, h3) {
+  /* h1 */
+  font-size: var(--h1-font-size);
+  line-height: var(--heading-line-height);
+  font-weight: var(--heading-font-weight);
+  text-transform: var(--h1-text-transform);
+  margin: var(--h1-margin);
+
+  /* h2 */
+  font-size: var(--h2-font-size);
+  line-height: var(--heading-line-height);
+  font-weight: var(--heading-font-weight);
+  text-transform: var(--h2-text-transform);
+
+  /* h3 */
+  font-size: var(--h3-font-size);
+  line-height: var(--heading-line-height);
+  font-weight: var(--heading-font-weight);
+}
+
+a {
+  border-radius: 10px;
+  color: var(--White);
+}
+
+.hero a {
+  background-color: var(--Vegan);
+}
+
+.card a {
+  background-color: var(--Catalina);
 }
