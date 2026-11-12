@@ -103,14 +103,26 @@ li {
   list-style: none;
 }
 
-a {
-  border-radius: 10px;
-  color: var(--White);
-  text-decoration: none;
+img {
+  width: 100%;
+  height: auto;
 }
 
-.hero a {
+a {
+  border-radius: 5px;
+  color: var(--White);
+  text-decoration: none;
+  /* background-color: var(--Vegan); */
+  padding: 0.5rem;
+}
+
+main a {
   background-color: var(--Vegan);
+}
+
+article {
+  padding: 1rem;
+  width: 50%;
 }
 
 .card a {
@@ -126,9 +138,12 @@ a {
     gap: 3rem;
     align-items: flex-end;
   }
-  /* .hero {
+  main {
     display: flex;
-  } */
+  }
+  img {
+    width: 50%;
+  }
 }
 
 @media (min-width: 1000px) {
