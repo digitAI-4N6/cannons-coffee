@@ -91,6 +91,8 @@ header {
   text-align: center;
   width: 100%;
   margin: 0;
+  padding: 1rem;
+  border-bottom: 5px solid var(--Sunglow);
 }
 
 ul {
@@ -110,6 +112,7 @@ img {
   width: 100%;
   margin: 0;
   padding: 0;
+  border-radius: 10px;
 }
 
 a {
@@ -128,16 +131,22 @@ main a {
   background-color: var(--Vegan);
 }
 
+main img {
+  border-radius: 0;
+}
+
 article {
   padding: 1rem;
   align-content: center;
   background-color: var(--White);
   margin: 0;
+  margin-top: -1rem;
 }
 
 section {
   margin: 0;
   background-color: var(--Light-Blue);
+  padding: 1rem;
 }
 
 .card {
@@ -152,6 +161,8 @@ section {
 footer {
   text-align: center;
   font-size: var(--body-font-size);
+  padding-top: 1rem;
+  border-top: 5px solid var(--Sunglow);
 }
 
 footer img {
@@ -172,6 +183,10 @@ footer p {
     gap: 0.5rem;
     align-items: flex-end;
     justify-content: space-around;
+  }
+
+  article {
+    margin-top: 0rem;
   }
 
   main img {
