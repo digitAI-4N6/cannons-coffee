@@ -139,7 +139,7 @@ article {
 }
 
 @media (min-width: 650px) {
-  .branding {
+  header {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
@@ -147,6 +147,11 @@ article {
     gap: 0.5rem;
     align-items: flex-end;
   }
+
+  header {
+    justify-content: space-around;
+  }
+
   main {
     display: flex;
   }
@@ -158,18 +163,25 @@ article {
 @media (min-width: 1000px) {
   header {
     display: flex;
-    justify-content: space-between;
+    flex-flow: row wrap;
+    justify-content: space-around;
     padding-left: 1rem;
     padding-right: 1rem;
   }
-  .branding {
+
+  header {
+    display: flex;
+    align-items: flex-end;
+    text-align: center;
+  }
+  /* .branding {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
-  }
+  } */
 
   .logo {
-    width: 20%;
+    width: 10%;
   }
 
   nav {
